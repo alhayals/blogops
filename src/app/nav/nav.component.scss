@@ -1,0 +1,32 @@
+.nav-container{
+    background: rgb(20, 20, 20);
+    padding: 10px;
+    .logo{
+        display:inline-block;
+        vertical-align: middle;
+        img{
+            height:30px;
+            width:auto;
+        }
+    }
+    nav{
+        display:inline-block;
+        vertical-align: middle;
+        margin-left: 50px;
+        ul{
+            margin:0;
+            padding:0;
+            li{
+                display:inline-block;
+                a{
+                    color:white;
+                    text-decoration: none;
+                    margin: 10px 20px;
+                    &.active{
+                       text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
