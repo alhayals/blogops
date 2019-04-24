@@ -6,7 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav.component.scss']
 })
 export class NavComponent implements OnInit {
-
+  menu=[
+    {label:'Most Recent', link:'/'},
+    {label:'Tech', link:'/tech'},
+    {label:'Design', link:'/design'},
+    {label:'Music', link:'/music'}
+  ]
   constructor() { }
 
   ngOnInit() {

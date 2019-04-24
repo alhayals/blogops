@@ -33,31 +33,27 @@
 
 }
 .nav-container{
-    background: rgb(20, 20, 20);
-    padding: 10px;
-    .logo{
-        display:inline-block;
-        vertical-align: middle;
-        img{
-            height:30px;
-            width:auto;
-        }
-    }
+    text-align: center;
+    background: rgb(214, 214, 214);
+    padding-top: 5px;
     nav{
         display:inline-block;
         vertical-align: middle;
-        margin-left: 50px;
         ul{
             margin:0;
             padding:0;
             li{
                 display:inline-block;
                 a{
-                    color:white;
+                    color:gray;
+                    padding:10px 20px;
+                    margin:0 5px;
+                    display: block;
                     text-decoration: none;
-                    margin: 10px 20px;
                     &.active{
-                       text-decoration: underline;
+                        color:black;
+                       background: #fff;
+
                     }
                 }
             }
